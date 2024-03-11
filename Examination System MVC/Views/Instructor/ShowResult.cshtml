@@ -1,0 +1,79 @@
+﻿@{
+	Layout = "_InstructorLayout";
+}
+@using DAL.Entities
+@using Examination_System_MVC.Controllers
+
+@model Course
+<!--app-content open-->
+<div class="main-content app-content mt-0">
+	<div class="side-app">
+
+		<!-- CONTAINER -->
+		<div class="main-container container-fluid">
+
+			<!-- PAGE-HEADER -->
+			<div class="page-header">
+				<h1 class="page-title">Show Results </h1>
+
+			</div>
+			<div class="card">
+
+				<div class="card-body">
+					<div class="card-pay">
+						<div class="tab-content">
+							<div class="tab-pane active show" id="tab20">
+
+								<form>
+									<div class="row">
+										<div class="col-sm-6 col-md-6">
+											<div class="form-group">
+												<label class="form-label">Course Name: </label>
+												<select asp-for="CrsID" class="form-control form-select select2" data-bs-placeholder="Select Country">
+													<option value="">-- Select Course --</option>
+													@foreach (var course in ViewBag.AllCourses)
+													{
+														<option value="@course.CrsID">@course.CrsName</option>
+													}
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-6 col-md-6">
+
+											<input type="submit" class="btn  btn-md btn-primary" value="Show " style="margin: auto; margin-top: 35px;">
+										</div>
+									</div>
+
+								</form>
+							</div>
+							<div class="card-body">
+								<div class="table-responsive">
+									<table class="table border text-nowrap text-md-nowrap table-striped mb-0 table-hover">
+										<thead>
+											<tr>
+												<th>ID</th>
+												<th>First Name</th>
+												<th>Last Name</th>
+												<th>Grade</th>
+											</tr>
+										</thead>
+										<tbody>
+											@foreach (StudentRec st in ViewBag.AllStudents)
+											{
+												<tr>
+													<td>@st.StID</td>
+													<td>@st.Fname</td>
+													<td>@st.Lname</td>
+													<td>@st.grade %</td>
+												</tr>
+											}
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>

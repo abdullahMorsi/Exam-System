@@ -1,0 +1,129 @@
+﻿@{
+    Layout = "_InstructorLayout";
+}
+
+
+<!--app-content open-->
+<div class="main-content app-content mt-0">
+    <div class="side-app">
+
+        <!-- CONTAINER -->
+        <div class="main-container container-fluid">
+
+            <!-- PAGE-HEADER -->
+            <div class="page-header">
+                <h1 class="page-title">Add Question </h1>
+
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="card-pay">
+                        <ul class="tabs-menu nav">
+                            <li class="" style="width: 50%;"><a href="#tab20" class="active" data-bs-toggle="tab">Multiple Choices</a></li>
+                            <li style="width: 50%;"><a href="#tab21" data-bs-toggle="tab" class="">  True & False</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tab20">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="form-label">Question Body: </label>
+                                        <input type="text" class="form-control" placeholder="   ">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group ">
+                                                <label class="form-label">Choice 1:</label>
+                                                <input type="text" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Choice 2:</label>
+                                                <input type="text" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group ">
+                                                <label class="form-label">Choice 3:</label>
+                                                <input type="text" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group ">
+                                                <label class="form-label">Choice 4:</label>
+                                                <input type="text" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group ">
+                                                <label class="form-label">Model Ans:</label>
+                                                <input type="text" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Course Name: </label>
+                                        <select name="courseName" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                            <option value="br">Brazil</option>
+                                            <option value="cz">Czech Republic</option>
+                                            <option value="de">Germany</option>
+                                            <option value="pl" selected>Poland</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Complexity: </label>
+                                        <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                            <option value="br">Easy</option>
+                                            <option value="cz">Hard</option>
+                                            <option value="de">Medium</option>
+                                        </select>
+                                    </div>
+                                    <input type="submit" class="btn  btn-lg btn-primary" value="Confirm" style="margin: auto;">
+                                </form>
+                            </div>
+
+                            <div class="tab-pane" id="tab21">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="form-label">Question Body: </label>
+                                        <input type="text" class="form-control" placeholder="   ">
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="form-group">
+                                            <label class="form-label">Model Answer: </label>
+                                            <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                <option value="br">True</option>
+                                                <option value="cz">False</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Course Name: </label>
+                                        <select name="courseName" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                            <option value="br">Brazil</option>
+                                            <option value="cz">Czech Republic</option>
+                                            <option value="de">Germany</option>
+                                            <option value="pl" selected>Poland</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Complexity: </label>
+                                        <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                            <option value="br">Easy</option>
+                                            <option value="cz">Hard</option>
+                                            <option value="de">Medium</option>
+                                        </select>
+                                    </div>
+                                    <input type="submit" class="btn  btn-lg btn-primary" value="Confirm" style="margin: auto;">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

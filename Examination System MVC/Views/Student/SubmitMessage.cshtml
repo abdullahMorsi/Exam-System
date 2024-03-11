@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "_StudentLayout";
+}
+
+
+<div class="col-xl-6 col-lg-12" style="margin: auto;margin-top: 200px;width: 500px;">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Instructions</h3>
+        </div>
+        <div class="card-body">
+            <form action="/Student/Main" method="post">
+                <div class="form-group">
+                    <label class="form-label">Your answers were submited succesfully</label>
+                    <input hidden name="personId" value="@Model">
+                </div>
+                <div class="form-group">
+                    <div class="container-login100-form-btn">
+                        <input value="Go Home" type="submit" class="login100-form-btn btn" style="background-color:#a1272d ;">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

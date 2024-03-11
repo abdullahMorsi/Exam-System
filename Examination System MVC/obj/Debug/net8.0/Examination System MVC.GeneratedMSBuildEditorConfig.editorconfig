@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Examination_System_MVC
+build_property.RootNamespace = Examination_System_MVC
+build_property.ProjectDir = D:\ITI_Intake_44\Projects\Examination System\Final Release\Team 2\Source Code\Examination System MVC\Examination System MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITI_Intake_44\Projects\Examination System\Final Release\Team 2\Source Code\Examination System MVC\Examination System MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Auth/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Instructor/AddQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBZGRRdWVzdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Instructor/CreateExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxDcmVhdGVFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Instructor/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Instructor/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Instructor/ShowResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxTaG93UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Shared/_InstructorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbnN0cnVjdG9yTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Shared/_StudentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHVkZW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Student/Exam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Student/Instructions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbnN0cnVjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Student/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Student/SubmitMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdWJtaXRNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI_Intake_44/Projects/Examination System/Final Release/Team 2/Source Code/Examination System MVC/Examination System MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4xnddbe2pg

@@ -1,0 +1,5 @@
+D:\ITI_Intake_44\Projects\Examination System\Examination System MVC\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\ITI_Intake_44\Projects\Examination System\Examination System MVC\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI_Intake_44\Projects\Examination System\Examination System MVC\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\ITI_Intake_44\Projects\Examination System\Examination System MVC\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\ITI_Intake_44\Projects\Examination System\Examination System MVC\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache

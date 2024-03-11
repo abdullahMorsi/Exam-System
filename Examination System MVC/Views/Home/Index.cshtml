@@ -1,0 +1,212 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- GLOBAL-LOADER -->
+<div id="global-loader">
+    <img src="../assets/images/loader.svg" class="loader-img" alt="Loader">
+</div>
+<!-- /GLOBAL-LOADER -->
+<!-- PAGE -->
+<div class="page">
+    <div class="page-main">
+
+        <!-- app-Header -->
+        <div class="app-header header sticky">
+            <div class="container-fluid main-container">
+                <div class="d-flex">
+                    <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="javascript:void(0)"></a>
+                    <!-- sidebar-toggle-->
+                    <a class="logo-horizontal " href="index.html">
+                        <img src="../assets/images/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
+                        alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /app-Header -->
+        <!--APP-SIDEBAR-->
+        <div class="sticky">
+            <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
+            <div class="app-sidebar" style="top:10%">
+                <div class="side-header" style="height: 150px;">
+                    <a class="header-brand1" href="index.html">
+
+
+                        <img src="itiLogo.png" style="width: 75px;max-height: 100%;vertical-align: middle;"
+                             alt="logo">
+                    </a>
+                    <!-- LOGO -->
+                </div>
+                <div class="main-sidemenu">
+                    <div class="slide-left disabled" id="slide-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+                        </svg>
+                    </div>
+                    <ul class="side-menu" style="margin-top:100px">
+                        <li class="sub-category">
+                            <!-- <h3>Main</h3> -->
+                        </li>
+
+                        <li class="slide">
+                            <!-- <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                    class="side-menu__icon fe fe-layers"></i><span
+                                    class="side-menu__label">Gym</span>
+                                    <i class="angle fe fe-chevron-right"></i></a>
+                            <ul class="slide-menu">
+                                <li><a href="nutrition-index.html" class="slide-item"> Nutrition</a>
+                                    <li><a href="exercise-index.html" class="slide-item"> Exercises</a>
+                                    <li><a href="Dietary-index.html" class="slide-item"> Dietary</a>
+                                    <li><a href="Books-index.html" class="slide-item"> Books</a>
+                                </li>
+
+                            </ul> -->
+                            <a class="side-menu__item" data-bs-toggle="slide" href="switcher-1.html">
+                                <i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Add Question</span>
+                            </a>
+
+                            <a class="side-menu__item" data-bs-toggle="slide" href="switcher-1.html">
+                                <i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Create Exam</span>
+                            </a>
+
+                            <a class="side-menu__item" data-bs-toggle="slide" href="switcher-1.html">
+                                <i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Show Result</span>
+                            </a>
+
+                            <a class="side-menu__item" data-bs-toggle="slide" href="switcher-1.html">
+                                <i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Logout</span>
+                            </a>
+                        </li>
+
+                </div>
+            </div>
+            <!--/APP-SIDEBAR-->
+        </div>
+
+        <!--app-content open-->
+        <div class="main-content app-content mt-0">
+            <div class="side-app">
+
+                <!-- CONTAINER -->
+                <div class="main-container container-fluid">
+
+                    <!-- PAGE-HEADER -->
+                    <div class="page-header">
+                        <h1 class="page-title">Add Question </h1>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="card-pay">
+                                <ul class="tabs-menu nav">
+                                    <li class="" style="width: 50%;"><a href="#tab20" class="active" data-bs-toggle="tab">Multiple Choices</a></li>
+                                    <li style="width: 50%;"><a href="#tab21" data-bs-toggle="tab" class="">  True & False</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active show" id="tab20">
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="form-label">Question Body: </label>
+                                                <input type="text" class="form-control" placeholder="   ">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group ">
+                                                        <label class="form-label">Choice 1:</label>
+                                                        <input type="text" class="form-control" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Choice 2:</label>
+                                                        <input type="text" class="form-control" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group ">
+                                                        <label class="form-label">Choice 3:</label>
+                                                        <input type="text" class="form-control" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group ">
+                                                        <label class="form-label">Choice 4:</label>
+                                                        <input type="text" class="form-control" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group ">
+                                                        <label class="form-label">Model Ans:</label>
+                                                        <input type="text" class="form-control" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Course Name: </label>
+                                                <select name="courseName" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                    <option value="br">Brazil</option>
+                                                    <option value="cz">Czech Republic</option>
+                                                    <option value="de">Germany</option>
+                                                    <option value="pl" selected>Poland</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Complexity: </label>
+                                                <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                    <option value="br">Easy</option>
+                                                    <option value="cz">Hard</option>
+                                                    <option value="de">Medium</option>
+                                                </select>
+                                            </div>
+                                            <input type="submit" class="btn  btn-lg btn-primary" value="Confirm" style="margin: auto;">
+                                        </form>
+                                    </div>
+
+                                    <div class="tab-pane" id="tab21">
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="form-label">Question Body: </label>
+                                                <input type="text" class="form-control" placeholder="   ">
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="form-group">
+                                                    <label class="form-label">Model Answer: </label>
+                                                    <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                        <option value="br">True</option>
+                                                        <option value="cz">False</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Course Name: </label>
+                                                <select name="courseName" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                    <option value="br">Brazil</option>
+                                                    <option value="cz">Czech Republic</option>
+                                                    <option value="de">Germany</option>
+                                                    <option value="pl" selected>Poland</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Complexity: </label>
+                                                <select name="complexity" class="form-control form-select select2 " data-bs-placeholder="Select Country">
+                                                    <option value="br">Easy</option>
+                                                    <option value="cz">Hard</option>
+                                                    <option value="de">Medium</option>
+                                                </select>
+                                            </div>
+                                            <input type="submit" class="btn  btn-lg btn-primary" value="Confirm" style="margin: auto;">
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>

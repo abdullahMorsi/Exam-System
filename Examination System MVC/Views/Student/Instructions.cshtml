@@ -1,0 +1,35 @@
+﻿@using DAL.Entities
+@{
+    Layout = "_StudentLayout";
+
+    TimeSpan? timeDifference = Model.EndTime - Model.StartTime;
+    double? hourDifference = timeDifference?.TotalHours;
+}
+
+@model Exam
+
+<div class="col-xl-6 col-lg-12" style="margin: auto;margin-top: 200px;width: 500px;">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Instructions: </h3>
+        </div>
+        <div class="card-header">
+                <p> @Model.Instructions</p>
+            </div>
+        <div class="card-body">
+            <form action="/Student/Exam" method="post">
+                <input hidden name="StID" value="@ViewBag.StID" />
+                <input hidden name="examId" value="@Model.ExamID" />
+                <div class="form-group">
+                    <label class="form-label">Exam Duration: @Math.Round((decimal)hourDifference, 2) Hours.</label>
+                </div>
+                <div class="form-group">
+                    <div class="container-login100-form-btn">
+                        <input value="Start Exam" type="submit" class="login100-form-btn btn" style="background-color:#a1272d ;">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

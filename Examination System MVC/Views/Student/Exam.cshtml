@@ -1,0 +1,110 @@
+﻿@using DAL.Entities
+@{
+    Layout = "_StudentLayout";
+
+    Exam exam = ViewBag.exam;
+
+    TimeSpan? timeDifference = exam.EndTime - exam.StartTime;
+    double? hourDifference = timeDifference?.TotalHours;
+    int counter = 1;
+}
+@model List<Question>
+
+
+<div class="card ">
+
+    <div class="card-body" style="
+        height: 73px;
+        width: 100%;
+        background-color: #f0f0f5;
+        position: fixed;
+        z-index: 1000;
+    ">
+        <ul class="nav1 br-7" style="background-color: #a1272d;  display: flex;justify-content: space-between;">
+            <li class="nav-item1">
+                <a class="nav-link active" href="javascript:void(0)" style="color:white; font-weight: bold;padding-left: 60px;">Exam: @exam.Crs.CrsName Exam</a>
+            </li>
+            <li class="nav-item1">
+                <a class="nav-link active" href="javascript:void(0)" style="color:white; font-weight: bold;padding-right: 60px;">End Time: @exam.EndTime </a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<form action="/Student/SubmitMessage" method="post">
+    <input hidden name="StID" type="Text" value="@ViewBag.StID" />
+    <input hidden name="ExamID" type="Text" value="@exam.ExamID" />
+    <div class="space" style="height: 50px;"></div>
+    @foreach (var q in @Model)
+    {
+        var choices = q.Choices.ToList();
+        if (q.Type == "TF")
+        {
+            <div class="col-xl-8 col-lg-12" style="margin: auto;margin-top: 20px;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">@counter - @q.QText</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[0].ChoiceID">
+                                <span class="custom-control-label">@choices[0].Value</span>
+                            </label>
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[1].ChoiceID">
+                                <span class="custom-control-label">@choices[1].Value</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-xl-8 col-lg-12" style="margin: auto;margin-top: 20px;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">@counter- @q.QText</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[0].ChoiceID">
+                                <span class="custom-control-label">@choices[0].Value</span>
+                            </label>
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[1].ChoiceID">
+                                <span class="custom-control-label">@choices[1].Value</span>
+                            </label>
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[2].ChoiceID">
+                                <span class="custom-control-label">@choices[2].Value</span>
+                            </label>
+                            <label class="custom-control custom-radio-md">
+                                <input required type="radio" class="custom-control-input" name="Choice_@counter" value="@choices[3].ChoiceID">
+                                <span class="custom-control-label">@choices[3].Value</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        
+         counter++;
+    }
+    <div class="col-xl-8 col-lg-12" style="margin: auto;margin-top: 20px;">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="form-group">
+                    <div class="container-login100-form-btn">
+                        <input value="Submit Answers" type="submit" class="login100-form-btn btn" style="background-color:#a1272d;" >
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
