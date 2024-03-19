@@ -7,6 +7,13 @@ Technologies used:
 - Entitiy Framework
 - SSRS & Report Builder
 
+It was an exciting experience doing this project as we started everything from scratch: 
+1- Going through the ERD of the system and applying the #EnhancedERD concepts e.g., Inheritance between tables like Person, Student, and Instructor.
+Also, as a practice, we built most of the logic as stored procedures and executed them using Entity Framework
+2- Sketching a prototype of the frontend that we will build using Figma
+3- building the front end with the ITI theme
+4- We used ASP.NET as a backend for the project and executed all the stored procedures in the database
+5- And for the reports we used SSRS to generate reports for the students and instructors and all their data and grades.
 ## ERD
 
 ![ERD](https://github.com/abdullahMorsi/Exam-System/assets/62671812/408c9340-102c-4a27-be92-ffdd0b4866fa)
